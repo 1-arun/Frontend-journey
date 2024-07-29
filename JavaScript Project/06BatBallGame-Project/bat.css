@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+.choice-button {
+
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(177, 205, 177);
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.choice-images {
+    height: 75px;
+}
+
+.reset-button {
+    height: 30px;
+    width: 100px;
+    color: red;
+    background-color: rgb(29, 2, 20);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.heading {
+    color: bisque;
+    background-color: blueviolet;
+}
