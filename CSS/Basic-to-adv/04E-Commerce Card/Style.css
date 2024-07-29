@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000c15;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.small {
+  height: 138px;
+  width: 138px;
+  background: radial-gradient(circle, #ea8bfa 0%, #7526f5 90%);
+  border-radius: 50%;
+  position: absolute;
+  left: -58px;
+  top: -52px;
+  z-index: -9;
+}
+
+.big {
+  height: 328px;
+  width: 328px;
+  background: radial-gradient(
+    circle,
+    #ff00c7 0%,
+    #afaff8 0%,
+    #a661ff 0%,
+    #6100ff 80%
+  );
+  border-radius: 50%;
+   position: absolute;
+   top: -80px;
+  left: 312px;
+  z-index: -9;
+ 
+}
+.medium {
+  height: 228px;
+  width: 228px;
+  background: radial-gradient(circle, #fed0ff 0%, #891cf6 90%);
+  border-radius: 50%;
+     position: absolute;
+  top: 400px;
+  left: -160px;
+  z-index: -9;
+}
+.card-container {
+    position: relative;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.211);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 400px;
+}
+.banner-image{
+    width: 100%;
+}
+.main {
+  padding: 20px;
+}
+.heading-para {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.main h6 {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.heading {
+  color: #957b2a;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.card-rating {
+  color: #957b2a;
+  margin-top: 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 2px solid wheat;
+ 
+  
+}
+.cart-text{
+    font-size:18px ;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.main-card{
+    border: 2px solid wheat;
+    border-radius: 16px;
+}
